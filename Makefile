@@ -9,7 +9,7 @@ train:
 	python train.py
 
 eval:
-	echo "## Model Metrics" > report.md
+	echo "## Model Metrics for Drug Prediction System" > report.md
 	cat ./Results/metrics.txt >> report.md
 
 	echo '\n## Confusion Matrix Plot' >> report.md
